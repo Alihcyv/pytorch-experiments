@@ -16,6 +16,10 @@ The network uses the simplest possible structure to demonstrate all core neural 
 - **Output Layer**: 1 neuron with **Sigmoid** activation.
 - **Task**: Binary Classification (predicting 0 or 1).
 
+<p align="center">
+  <img src="images/single_neuron_1.jpg" width="400"/>
+</p>
+
 ### Data Flow Diagram:
 `Input (x) ➔ [Weight 1, Bias 1] ➔ ReLU ➔ [Weight 2, Bias 2] ➔ Sigmoid ➔ Output (ŷ)`
 
