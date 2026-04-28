@@ -72,7 +72,7 @@ This means the model would not be able to learn complex patterns in the data.
 
 ### 
 
-### BCELoss (Binary Cross Entropy)
+### [BCELoss (Binary Cross Entropy)](https://huggingface.co/blog/royswastik/cross-entropy-simplified)
 
 $$
 \mathcal{L} = - \left( y \log(p) + (1 - y)\log(1 - p) \right)
