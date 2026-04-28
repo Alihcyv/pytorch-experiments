@@ -22,9 +22,28 @@ The network uses the simplest possible structure to demonstrate all core neural 
 
 ### Sigmoid Activation Function
 
+Before diving into the forward pass, it is important to understand the role of activation functions in neural networks.
+
 <p align="center">
-  <img src="images/single_neuron_1.jpg" width="400"/>
+  <img src="images/sigmoid.png" width="400"/>
 </p>
+
+The Sigmoid function is a nonlinear activation function that maps input values into the range $(0, 1)$:
+
+\$$
+\sigma(x) = \frac{1}{1 + e^{-x}}
+\$$
+
+It is commonly used in binary classification tasks because its output can be interpreted as a probability.
+
+Activation functions introduce non-linearity into the model.  
+Without them, a neural network would behave like a simple linear model, regardless of the number of layers.
+
+This means the model would not be able to learn complex patterns in the data.
+
+### ReLU (Rectified Linear Unit)
+
+
 
 ### Data Flow Diagram:
 `Input (x) ➔ [Weight 1, Bias 1] ➔ ReLU ➔ [Weight 2, Bias 2] ➔ Sigmoid ➔ Output (ŷ)`
