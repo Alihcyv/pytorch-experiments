@@ -20,6 +20,12 @@ The network uses the simplest possible structure to demonstrate all core neural 
   <img src="images/single_neuron_1.jpg" width="400"/>
 </p>
 
+### Sigmoid Activation Function
+
+<p align="center">
+  <img src="images/single_neuron_1.jpg" width="400"/>
+</p>
+
 ### Data Flow Diagram:
 `Input (x) ➔ [Weight 1, Bias 1] ➔ ReLU ➔ [Weight 2, Bias 2] ➔ Sigmoid ➔ Output (ŷ)`
 
